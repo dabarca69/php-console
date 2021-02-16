@@ -14,17 +14,22 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">PHP Console</a>
     </nav>
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid Jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parents.</p>
+            <h1 class="display-4">Consola de PHP</h1>
+            <p class="lead">Esto es una consola...</p>
         </div>
     </div>
-<div class="container">
-    <div class="row">
-        
+    <div class="container">
+        <div class="row">
+            <div class="p-3 m-2 bg-primary text-white">
+                <?php
+                 echo "HOLA, BUENOS DÍAS"
+                ?>
+            </div>
+        </div>
     </div>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
         crossorigin="anonymous"></script>
